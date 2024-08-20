@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Provincetown Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><span id="rainbow"><span id="red">G</span><span id="orange">W</span><span id="yellow">E</span><span
+                    id="green">A</span><span id="blue">T</span><span id="indigo">H</span><span id="purple">E</span><span
+                    id="brown">R</span></span></h1>
+        <h2 id="subtitle">The Gayest Weather Report for the Gayest Town in America!</h2>
+    </header>
+    <main>
+        <!-- Dropdown for selecting weather categories -->
+        <section id="controls">
+            <label for="weatherChoices">Spill the Tea with me:</label>
+            <select id="weatherChoices">
+                <option value="selection">What's your flavor?</option>
+                <option value="temperature">Temperature</option>
+                <option value="wind">Wind</option>
+                <option value="precipitation">Precipitation</option>
+                <option value="sunlight">Sunlight</option>
+                <option value="misc">Additional Data</option>
+            </select>
+        </section>
+        <!-- Section for displaying the selected weather data -->
+        <section id="showWeather">
+            <div id="temps" class="weatherCard">
+                <h2>Temperature</h2>
+                <p>Current Temperature: <span id="currentTemp"></span>°F</p>
+                <p>Feels Like: <span id="feelsLike"></span>°F</p>
+                <p>Current Humidity: <span id="humidity"></span>%</p>
+                <button id="tempClick">Is it just me or are you hot in here? 🔥🤤</button>
+            </div>
+            <div id="windData" class="weatherCard">
+                <h2>Wind</h2>
+                <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+                <p>Wind Direction: <span id="windDirection"></span></p>
+                <p>Wind Gusts: <span id="windGusts"></span> mph</p>
+                <button id="blowMe">Thar she blows!💨</button>
+            </div>
+            <div id="rainData" class="weatherCard">
+                <h2>Precipitation</h2>
+                <p>Type: <span id="rainType"></span></p>
+                <p>Chance: <span id="rainChance"></span>%</p>
+                <p>Amount: <span id="rainAmount"></span> inches 😉</p>
+                <button id="rainClick">are you wet?🫣⛈️</button>
+
+            </div>
+            <div id="sunData" class="weatherCard">
+                <h2>Sunlight</h2>
+                <p>Sunrise: <span id="sunriseTime"></span></p>
+                <p>Sunset: <span id="sunsetTime"></span></p>
+                <p>UV Index: <span id="uvIndex"></span></p>
+                <button id="sunClick">I'm blinded by your beauty, baby 🤩</button>
+
+            </div>
+            <div id="misc" class="weatherCard">
+                <h2>Additional Data</h2>
+                <p>Surface Pressure: <span id="surfacePressure"></span>hPa</p>
+                <p>Sea Level Pressure: <span id="seaLevelPressure"></span>hPa</p>
+                <p>Cloud Coverage: <span id="cloudCoverage"></span>%</p>
+                <button id="oceanClick">What happens Underwater Stays Underwater</button>
+
+            </div>
+            <div id="clickMe" class="weatherCard">
+                <h2 id="yay">Gay For Yay</h2>
+                <p id="intro">Intro: <span id="wilkommen"></span></p>
+                <p id="what">What is this?:<span id="why"></span></p>
+                <p id="demure">Very Demure, Very Mindful: <span id="selfPats"></span></p>
+                <button id="introClick">Click me for a tip: just the tip.</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="data">API data</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

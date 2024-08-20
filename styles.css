@@ -1,0 +1,138 @@
+#red {
+    color: rgb(223, 49, 49);
+    padding-right: 10px
+}
+#orange {
+    color: orange;
+    padding-right: 5px
+}
+#yellow {
+    color: rgb(255, 247, 0);
+    padding-right: 5px
+}
+#green {
+    color: rgb(1, 150, 1);
+    padding-right: 5px
+}
+#blue {
+    color: rgb(49, 85, 229);
+    padding-right: 5px
+}
+#indigo {
+    color: rgb(109, 35, 162);
+    padding-right: 5px
+}
+#purple {
+    color: purple;
+    padding-right: 5px
+}
+#brown {
+    color: rgba(117, 54, 3, 0.969);
+    padding-right: 5px
+
+}
+#rainbow {
+    border: 2px solid black;
+    font-size: 70px;
+}
+h1 {
+    text-align: center;
+}
+body{ 
+    background-color: lightblue;
+}
+#windData {
+    padding-right: 40px;
+}
+#sunlightData {
+ text-align: right;
+ padding-right: 40px;
+}
+ #controls {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: xx-large;
+    border: 2px dotted white
+ }
+ .choices {
+    font-size: x-large ;
+ }
+ #subtitle {
+    text-align: center;
+ }
+ .hidden {
+    display:none;
+ }
+ #showWeather {
+    text-align: center;
+ }
+ #yay {
+    color: hotpink;
+    text-decoration: underline;
+    font-size: 40px;
+ }
+ #data {
+    padding-top: 100px;
+    text-align: right;
+ }
+ #wilkommen {
+    font-size: large;
+ }
+ #why {
+    font-size: large;
+ }
+ #selfPats {
+    font-size: large;
+ }
+ #intro {
+    font-size: x-large;
+ }
+#what {
+    font-size: x-large;
+}
+#demure {
+    font-size: x-large;
+}
+#introClick {
+    background-color: black;
+    color: white;
+    border: 3px solid pink;
+} 
+#introClick:hover {
+    color: pink;
+    background-color: white;
+    border: 3px solid black;
+    
+}
+#weatherChoices {
+    color: rgb(196, 81, 100);
+    text-align: center;
+    font-size: large;
+}
+
+#oceanClick {
+    color:white;
+    background-color: darkcyan;
+    border: 3px dotted white
+}
+#sunClick {
+    color:black;
+    background-color:rgb(229, 229, 2);
+    border: 2px dotted orange
+}
+#rainClick {
+    color: darkblue;
+    background-color: lightgray;
+    border: 3pk solid white;
+}
+#tempClick {
+    color:white;
+    background-color: red;
+    border:2px solid grey
+}
+#blowMe{
+background-color: orange;
+color: green;
+border: 2px dashed blue;
+}
