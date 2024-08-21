@@ -1,3 +1,4 @@
+/* Gweather letter coloring */
 #red {
     color: rgb(223, 49, 49);
     padding-right: 10px
@@ -15,32 +16,31 @@
     padding-right: 5px
 }
 #blue {
-    color: rgb(49, 85, 229);
+    color: rgb(5, 97, 226);
     padding-right: 5px
 }
 #indigo {
-    color: rgb(109, 35, 162);
+    color: rgb(36, 6, 146);
     padding-right: 5px
 }
 #purple {
-    color: purple;
+    color: rgb(161, 2, 161);
     padding-right: 5px
 }
 #brown {
-    color: rgba(117, 54, 3, 0.969);
+    color:rgb(100, 3, 100);
     padding-right: 5px
 
 }
-#rainbow {
-    border: 2px solid black;
-    font-size: 70px;
-}
+/* aligning text to center of page */
 h1 {
     text-align: center;
 }
+/* background of webpage coloring */
 body{ 
     background-color: lightblue;
 }
+/* padding gives space between whatever you select to the things around it */
 #windData {
     padding-right: 40px;
 }
@@ -48,12 +48,14 @@ body{
  text-align: right;
  padding-right: 40px;
 }
+/* adjust font size you can do this by saying a size or defining by pixel. */
  #controls {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     font-size: xx-large;
-    border: 2px dotted white
+    border-top: 2px solid white;
+    border-bottom: 3px solid white
  }
  .choices {
     font-size: x-large ;
@@ -61,15 +63,22 @@ body{
  #subtitle {
     text-align: center;
  }
+ /* this is the class that hides things, it's just a class given and you say display none so it doesn't show when its being called! */
  .hidden {
     display:none;
  }
+ /* max width can help you keep your data within a certain amount of pixels so it doesnt look like loose and boring text/data */
  #showWeather {
     text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1000px;
  }
+ /* text-decoration is great for adding underlines as far as i know lol */
  #yay {
     color: hotpink;
     text-decoration: underline;
+    text-decoration-color: navy;
     font-size: 40px;
  }
  #data {
@@ -77,62 +86,176 @@ body{
     text-align: right;
  }
  #wilkommen {
-    font-size: large;
+    font-size: 38px;
  }
  #why {
-    font-size: large;
+    font-size: 20px;
+    padding-left:10px;
+    margin-right: 20px;
+    margin-left: 20px
  }
  #selfPats {
-    font-size: large;
+    font-size: 20px;
+    padding-left:10px;
+    margin-right: 20px;
+    margin-left: 20px
  }
  #intro {
-    font-size: x-large;
- }
+    font-size: 20px;
+    padding-left:10px;
+    margin-right: 20px;
+    margin-left: 20px }
 #what {
-    font-size: x-large;
-}
+    font-size: 20px;
+    padding-left:10px;
+    margin-right: 20px;
+    margin-left: 20px}
 #demure {
-    font-size: x-large;
+    font-size: 22px;
+    padding-left:10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
+/* designing my click */
 #introClick {
     background-color: black;
     color: white;
     border: 3px solid pink;
+    font-size: larger
 } 
+/* a cool way to make a hover event without having to make an event listener! neat huh!? */
 #introClick:hover {
     color: pink;
     background-color: white;
     border: 3px solid black;
-    
+    font-size: larger
 }
 #weatherChoices {
-    color: rgb(196, 81, 100);
+    color: white;
     text-align: center;
     font-size: large;
+    background-color: darkgray;
 }
-
+/* if you click the square color you can play with the color pallette  */
 #oceanClick {
+    color:rgb(187, 0, 255);
+    background-color: rgb(255, 255, 255);
+    border: 3px dashed rgb(255, 0, 111);
+    font-size: larger
+}
+#oceanClick:hover{
     color:white;
-    background-color: darkcyan;
-    border: 3px dotted white
+    background-color: pink;
+    border: 2px solid rgb (187,0,255);
 }
 #sunClick {
     color:black;
     background-color:rgb(229, 229, 2);
-    border: 2px dotted orange
+    border: 2px dotted orange;
+    font-size: larger
+}
+#sunClick:hover {
+    color: red;
+    background-color: black;
+    border:2px solid yellow;
+    font-size: larger
+
 }
 #rainClick {
     color: darkblue;
     background-color: lightgray;
-    border: 3pk solid white;
+    border: 3px solid white;
+    font-size: larger
+}
+#rainClick:hover {
+    border:2px solid blue;
+    color: darkgray;
+    background-color: white;
+    font-size: larger
 }
 #tempClick {
     color:white;
     background-color: red;
-    border:2px solid grey
+    border:3px solid orange;
+    font-size: larger
+}
+#tempClick:hover {
+    color:rgb(203, 29, 226);
+    background-color: rgb(248, 225, 16);
+    border: 3px solid white;
+    font-size: larger
 }
 #blowMe{
 background-color: orange;
 color: green;
 border: 2px dashed blue;
+font-size: larger
 }
+#blowMe:hover {
+    background-color: blue;
+    color:orange;
+    border:2px dashed rgb(54, 222, 54);
+    font-size: larger
+
+}
+#rainbow {
+    font-size: 70px;
+    border: 3px solid black;
+}
+
+
+/* you can also add features to the underlined things using text-decoration like below! */
+.danceMouseBoy {
+    display: inline-block;
+    padding-left: 40px ;
+    padding-right: 40px;
+    text-decoration: 5px underline;
+    text-decoration-style: wavy ;
+    text-decoration-color: white;
+}
+label {
+    display:block;
+    margin: 5px;
+    text-align: center;
+}
+select {
+    width: 50%;
+    max-width: 100%;
+}
+#newRed {
+    color:red;
+    border: 3px solid;
+    background-color: rgb(224, 224, 224);
+
+}
+#newOrange {
+    color:rgb(248, 136, 0);
+    border: 3px solid;
+    background-color: blue;
+
+}
+#newBlue {
+    color: rgb(0, 41, 128);
+    border: 3px solid;
+    background-color: rgb(147, 198, 198);
+}
+#newGreen {
+    color: green;
+    background-color: rgb(227, 227, 151);
+    border: 3px solid
+}
+#newYellow {
+    color: yellow;
+    background-color: gray;
+    border: 3px solid;
+}
+#current {
+    font-size: large;
+}
+.largeData {
+    font-size: x-large;
+}
+#borderMe {
+    border: 5px solid rgb(0, 0, 0)
+}
+
