@@ -6,10 +6,11 @@ const weatherData = {
       "Welcome To the latest site of G'weather - Gay weather all the time!",
     why: "I thought it would be cool to have a site  to tell you the details of our little shared paradise on Earth. So, if you're thinking of visiting, moving, have friends in the area or live there: This is for you!        It will provide updates as the site grows in users and content so stay tuned and feel free to provide any tips or recommendations to instagram 📸:Gay_coded",
     selfPats:
-      "In a time when confusion and anxiety riddle the world, take a moment to check in on out very own cape of curiosity, chaos and scenery. You may find the tide level particularly interesting if you're thinking of visiting the local docks when the moon is high😏",
+      "In a time when confusion and anxiety riddle the world, take a moment to check in on out very own cape of curiosity, chaos and scenery. You may find the tide level particularly interesting if you're thinking of visiting the local docks when the moon is high😏.",
+    
   },
 };
-// this function is converting the data i received from the api because it was giving me the wind direction
+// this function is converting the wind directiondata i received from the api because it was giving me the wind direction
 // in a format of 0-360 degrees so i had to make a function to convert the data into a legible format. (Charlotte helped me with this)
 function getDirection(degree) {
   if (degree >= 0 && degree <= 360) {
@@ -103,9 +104,10 @@ const puns = [
   "Nothing but blue skies and good alibis."
 
 ];
-// this is the function so handle the click on mybottom page puns
+
+// this is the function to handle the click on my bottom page puns                     ***
 function handleQuipClick(event, cardId) {
-// get random pun| math.random() is generating a random devimal number between 0 (inclusive) and 1(exclusive)|
+ // get random pun| math.random() is generating a random devimal number between 0 (inclusive) and 1(exclusive)|
 // puns.length gives the length of my array, entirety|
 // math.randon by pun.length scales the random number to a range between 0 and the length of the array.
 // math.floor() rounds the decimal number down to the nearest whole number so if the array has 5 items it will generate a random number between 0-4.99
@@ -113,7 +115,7 @@ function handleQuipClick(event, cardId) {
   const card = document.getElementById(cardId);
   const p = document.createElement("p");
   p.textContent = puns[randomPun];
-  card.append(p);
+   card.append(p);
 }
 // this function is hiding all of the weather data from the page at first load so we can select one at a time to be 'unhidden' to show data
 function hideWeather() {
@@ -160,7 +162,7 @@ quipButtons.forEach((button) => {
 
 // this section is to populate the weather updated data into the html
 function newData() {
-  //api used is open-meteo.com
+  //api used is open-meteo.com           ****
   fetch(
     "https://api.open-meteo.com/v1/forecast?latitude=42.053&longitude=-70.1864&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,rain,showers,snowfall,weather_code,cloud_cover,pressure_msl,surface_pressure,wind_speed_10m,wind_direction_10m,wind_gusts_10m&hourly=temperature_2m,dew_point_2m,apparent_temperature,precipitation_probability,precipitation,rain,showers,snowfall,snow_depth,weather_code,pressure_msl,surface_pressure,cloud_cover,cloud_cover_low,cloud_cover_mid,cloud_cover_high,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index,is_day,sunshine_duration&daily=temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,sunrise,sunset,daylight_duration,sunshine_duration,uv_index_max,precipitation_sum,rain_sum,showers_sum,snowfall_sum,precipitation_hours,precipitation_probability_max,wind_speed_10m_max,wind_gusts_10m_max,wind_direction_10m_dominant,shortwave_radiation_sum,et0_fao_evapotranspiration&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch&timezone=America%2FNew_York&forecast_days=1&forecast_hours=24"
   )
