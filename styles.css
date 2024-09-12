@@ -261,3 +261,7 @@ select {
 #history {
     font-size: large;
 }
+@media (max-width: 450px) {
+     #rainbow {
+font-size: 40px    }
+  }
