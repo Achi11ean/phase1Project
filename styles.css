@@ -35,18 +35,26 @@
 /* aligning text to center of page */
 h1 {
     text-align: center;
+    border-radius: 20px;
+
 }
 /* background of webpage coloring */
 body{ 
     background-color: rgb(157, 255, 222);
+    border-radius: 20px;
+
 }
 /* padding gives space between whatever you select to the things around it */
 #windData {
     padding-right: 40px;
+    border-radius: 20px;
+
 }
 #sunlightData {
  text-align: right;
  padding-right: 40px;
+ border-radius: 20px;
+
 }
 /* adjust font size you can do this by saying a size or defining by pixel. */
  #controls {
@@ -75,6 +83,7 @@ body{
     text-align: center;
     margin-left:auto;
     margin-right:auto;
+    border-radius: 20px;
     max-width: 100%;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -229,6 +238,7 @@ select {
     color:red;
     border: 3px solid;
     background-color: rgb(224, 224, 224);
+    border-radius: 20px;
 
 }
 #newOrange {
@@ -249,21 +259,29 @@ select {
 #newGreen {
     color: green;
     background-color: rgb(227, 227, 151);
-    border: 3px solid
+    border: 3px solid;
+    border-radius: 20px;
+
 }
 #newYellow {
     color: yellow;
     background-color: gray;
     border: 3px solid;
+    border-radius: 20px;
+
 }
 #current {
     font-size: large;
+    border-radius: 20px;
+
 }
 .largeData {
     font-size: x-large;
 }
 #borderMe {
-    border: 2px solid rgb(0, 0, 0)
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+
 }
 
 #history {
@@ -284,12 +302,13 @@ font-size: 28px    }
     body {
         font-size: 14px;
         width: 100%;
+        max-width: fit-content;
         padding: 10px;
     }
     
     #controls {
         font-size: small;
-        margin-right: 260px;
+        margin-right: 220px;
         border: none;
         margin-left: 0; /* Centering it for small screens */
     }
@@ -324,6 +343,7 @@ font-size: 28px    }
         color: rgb(47, 0, 255);
         text-align: center;
         width:275px;
+        margin-right: 43px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 25px;
         background-color: darkgray;
@@ -345,4 +365,52 @@ font-size: 28px    }
         font-size: 20px;
     }
     
+    #newRed {
+        color:red;
+        border: 3px solid;
+        background-color: rgb(224, 224, 224);
+        border-radius: 20px;
+        width: 300px;
+        margin-left: 130px;
+    
+    }
+    #newOrange {
+        color:rgb(248, 136, 0);
+        border: 3px solid;
+        background-color: blue;
+        border-radius: 20px;
+        width: 300px;
+        margin-left: 130px;
+    
+    
+    }
+    #newBlue {
+        color: rgb(0, 41, 128);
+        border: 3px solid;
+        background-color: rgb(147, 198, 198);
+        border-radius: 20px;
+        width: 300px;
+        margin-left: 130px;
+    
+    }
+    #newGreen {
+        color: green;
+        background-color: rgb(227, 227, 151);
+        border: 3px solid;
+        border-radius: 20px;
+        width: 300px;
+        margin-left: 130px;
+    
+    }
+    #newYellow {
+        color: yellow;
+        background-color: gray;
+        border: 3px solid;
+        border-radius: 20px;
+        width: 300px;
+        margin-left: 130px;
+    
+
+
+}
 }
