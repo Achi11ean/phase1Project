@@ -275,3 +275,42 @@ select {
      #rainbow {
 font-size: 28px    }
 }
+@media (max-width: 450px) {
+    /* Adjusting text size and spacing for smaller screens */
+    body {
+        font-size: 14px;
+        max-width: 425px;
+        padding: 10px;
+    }
+    
+    #controls {
+        font-size: large;
+        margin-right: 200px;
+        margin-left: 0; /* Centering it for small screens */
+    }
+    
+    #windData, #sunlightData {
+        padding-right: 20px;
+    }
+
+    .choices {
+        font-size: medium;
+    }
+
+    /* Adjusting button and other elements' size */
+    #introClick, #oceanClick, #sunClick, #rainClick, #tempClick, #blowMe {
+        font-size: medium;
+        padding: 5px;
+    }
+
+    /* Adjusting table or large containers */
+    #showWeather {
+        max-width: 100%;
+        font-size: medium;
+    }
+    select {
+        width: 100px;
+        border-radius: 20px;
+    
+    }
+}
