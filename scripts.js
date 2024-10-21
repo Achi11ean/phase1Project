@@ -4,7 +4,6 @@ const weatherData = {
   clickMe: {
     wilkommen:
       "Welcome To the latest site of G'weather - Gay weather all the time!",
-    why: "I thought it would be cool to have a site  to tell you the details of our little shared paradise on Earth. So, if you're thinking of visiting, moving, have friends in the area or live there: This is for you!        It will provide updates as the site grows in users and content so stay tuned and feel free to provide any tips or recommendations to instagram 📸:Gay_coded",
     selfPats:
       "In a time when confusion and anxiety riddle the world, take a moment to check in on out very own cape of curiosity, chaos and scenery. You may find the tide level particularly interesting if you're thinking of visiting the local docks when the moon is high😏.",
     
@@ -224,11 +223,11 @@ function newData() {
     });
 
   // this is the data about the intro to the website which should show automatically
-  document.getElementById("wilkommen").textContent =
-    weatherData.clickMe.wilkommen;
-  document.getElementById("why").textContent = weatherData.clickMe.why;
-  document.getElementById("selfPats").textContent =
-    weatherData.clickMe.selfPats;
+  // document.getElementById("wilkommen").textContent =
+  //   weatherData.clickMe.wilkommen;
+  // document.getElementById("why").textContent = weatherData.clickMe.why;
+  // document.getElementById("selfPats").textContent =
+  //   weatherData.clickMe.selfPats;
     // this is calling the hideWeatherfunction again to make sure they arent all showing on the same page and are ' hidden' unless selected
   hideWeather();
   const clickMe = document.getElementById("clickMe");

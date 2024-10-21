@@ -38,7 +38,7 @@ h1 {
 }
 /* background of webpage coloring */
 body{ 
-    background-color: lightblue;
+    background-color: rgb(115, 220, 255);
 }
 /* padding gives space between whatever you select to the things around it */
 #windData {
@@ -50,12 +50,15 @@ body{
 }
 /* adjust font size you can do this by saying a size or defining by pixel. */
  #controls {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
+    width:600px;
     font-size: xx-large;
     border-top: 2px solid white;
-    border-bottom: 3px solid white
+    border-radius: 40px;
+    border-bottom: 3px solid white;
+    margin-left: 550px;;
  }
  .choices {
     font-size: x-large ;
@@ -73,43 +76,19 @@ body{
     margin-left:auto;
     margin-right:auto;
     max-width: 1000px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
  /* text-decoration is great for adding underlines as far as i know lol */
- #yay {
-    color: hotpink;
-    text-decoration: underline;
-    text-decoration-color: navy;
-    font-size: 40px;
- }
+
  #data {
     padding-top: 100px;
     text-align: right;
+    border-radius: 20px;
  }
- #wilkommen {
-    font-size: 38px;
- }
- #why {
-    font-size: 20px;
-    padding-left:10px;
-    margin-right: 20px;
-    margin-left: 20px
- }
- #selfPats {
-    font-size: 20px;
-    padding-left:10px;
-    margin-right: 20px;
-    margin-left: 20px
- }
- #intro {
-    font-size: 20px;
-    padding-left:10px;
-    margin-right: 20px;
-    margin-left: 20px }
-#what {
-    font-size: 20px;
-    padding-left:10px;
-    margin-right: 20px;
-    margin-left: 20px}
+
+
+
 #demure {
     font-size: 22px;
     padding-left:10px;
@@ -121,6 +100,7 @@ body{
     background-color: black;
     color: white;
     border: 3px solid pink;
+    border-radius: 20px;
     font-size: larger
 } 
 /* a cool way to make a hover event without having to make an event listener! neat huh!? */
@@ -128,12 +108,15 @@ body{
     color: pink;
     background-color: white;
     border: 3px solid black;
+    border-radius: 20px;
     font-size: larger
 }
 #weatherChoices {
-    color: white;
+    color: rgb(47, 0, 255);
     text-align: center;
-    font-size: large;
+    width:800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
     background-color: darkgray;
 }
 /* if you click the square color you can play with the color pallette  */
@@ -141,7 +124,9 @@ body{
     color:rgb(187, 0, 255);
     background-color: rgb(255, 255, 255);
     border: 3px dashed rgb(255, 0, 111);
-    font-size: larger
+    font-size: larger;
+    border-radius: 20px;
+
 }
 #oceanClick:hover{
     color:white;
@@ -152,20 +137,26 @@ body{
     color:black;
     background-color:rgb(229, 229, 2);
     border: 2px dotted orange;
-    font-size: larger
+    font-size: larger;
+    border-radius: 20px;
+
 }
 #sunClick:hover {
     color: red;
     background-color: black;
     border:2px solid yellow;
-    font-size: larger
+    font-size: larger;
+    border-radius: 20px;
+
 
 }
 #rainClick {
     color: darkblue;
     background-color: lightgray;
     border: 3px solid white;
-    font-size: larger
+    font-size: larger;
+    border-radius: 30px;
+
 }
 #rainClick:hover {
     border:2px solid blue;
@@ -177,7 +168,9 @@ body{
     color:white;
     background-color: red;
     border:3px solid orange;
-    font-size: larger
+    font-size: larger;
+    border-radius: 20px;
+
 }
 #tempClick:hover {
     color:rgb(203, 29, 226);
@@ -189,18 +182,24 @@ body{
 background-color: orange;
 color: green;
 border: 2px dashed blue;
-font-size: larger
+font-size: larger;
+border-radius: 20px;
+
 }
 #blowMe:hover {
     background-color: blue;
     color:orange;
     border:2px dashed rgb(54, 222, 54);
-    font-size: larger
+    font-size: larger;
+    border-radius: 20px;
+
 
 }
 #rainbow {
     font-size: 70px;
     padding: 10px;
+    font-family: cursive;
+    
 }
 
 
@@ -211,6 +210,9 @@ font-size: larger
     padding-right: 40px;
     text-decoration: 5px underline;
     text-decoration-color: white;
+    border-radius: 20px;
+    font-family: cursive;
+
 }
 label {
     display:block;
@@ -220,6 +222,8 @@ label {
 select {
     width: 50%;
     max-width: 100%;
+    border-radius: 20px;
+
 }
 #newRed {
     color:red;
@@ -231,12 +235,16 @@ select {
     color:rgb(248, 136, 0);
     border: 3px solid;
     background-color: blue;
+    border-radius: 20px;
+
 
 }
 #newBlue {
     color: rgb(0, 41, 128);
     border: 3px solid;
     background-color: rgb(147, 198, 198);
+    border-radius: 20px;
+
 }
 #newGreen {
     color: green;
@@ -260,6 +268,10 @@ select {
 
 #history {
     font-size: large;
+    border: 4px solid pink;
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 10px;
 }
 @media (max-width: 450px) {
      #rainbow {
