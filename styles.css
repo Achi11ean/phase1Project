@@ -38,7 +38,7 @@ h1 {
 }
 /* background of webpage coloring */
 body{ 
-    background-color: rgb(115, 220, 255);
+    background-color: rgb(157, 255, 222);
 }
 /* padding gives space between whatever you select to the things around it */
 #windData {
@@ -94,6 +94,8 @@ body{
     padding-left:10px;
     margin-right: 20px;
     margin-left: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 /* designing my click */
 #introClick {
@@ -210,7 +212,7 @@ border-radius: 20px;
     padding-right: 40px;
     border-radius: 20px;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 40px;
 }
 label {
     display:block;
@@ -270,6 +272,8 @@ select {
     background-color: aliceblue;
     border-radius: 40px;
     padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 @media (max-width: 450px) {
      #rainbow {
@@ -297,6 +301,7 @@ font-size: 28px    }
     .choices {
         font-size: medium;
     }
+    
 
     /* Adjusting button and other elements' size */
     #introClick, #oceanClick, #sunClick, #rainClick, #tempClick, #blowMe {
@@ -331,6 +336,13 @@ font-size: 28px    }
         border: 5px solid rgb(255, 255, 255);
         width:570px;
     }
-    
+    .danceMouseBoy {
+        display: inline-block;
+        padding-left: 15px ;
+        padding-right: 15px;
+        border-radius: 20px;
+        font-family: cursive;
+        font-size: 20px;
+    }
     
 }
