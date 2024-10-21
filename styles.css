@@ -75,7 +75,7 @@ body{
     text-align: center;
     margin-left:auto;
     margin-right:auto;
-    max-width: 1000px;
+    max-width: 100%;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
@@ -116,7 +116,7 @@ body{
     text-align: center;
     width:800px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 20px;
     background-color: darkgray;
 }
 /* if you click the square color you can play with the color pallette  */
@@ -210,7 +210,7 @@ border-radius: 20px;
     padding-right: 40px;
     border-radius: 20px;
     font-family: cursive;
-
+    font-size: 20px;
 }
 label {
     display:block;
@@ -261,7 +261,7 @@ select {
     font-size: x-large;
 }
 #borderMe {
-    border: 5px solid rgb(0, 0, 0)
+    border: 2px solid rgb(0, 0, 0)
 }
 
 #history {
@@ -279,13 +279,14 @@ font-size: 28px    }
     /* Adjusting text size and spacing for smaller screens */
     body {
         font-size: 14px;
-        max-width: 425px;
+        width: 100%;
         padding: 10px;
     }
     
     #controls {
-        font-size: large;
-        margin-right: 200px;
+        font-size: small;
+        margin-right: 260px;
+        border: none;
         margin-left: 0; /* Centering it for small screens */
     }
     
@@ -309,8 +310,27 @@ font-size: 28px    }
         font-size: medium;
     }
     select {
-        width: 100px;
+        width: 40px;
         border-radius: 20px;
-    
+        max-width: 275px;
+        
     }
+    #weatherChoices {
+        color: rgb(47, 0, 255);
+        text-align: center;
+        width:275px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        background-color: darkgray;
+    }
+    h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+    #borderMe {
+        border: 5px solid rgb(255, 255, 255);
+        width:570px;
+    }
+    
+    
 }

@@ -71,10 +71,20 @@ function formatTime(timestamp) {
 
 // defining my puns in an array. i'm gonna add so many more puns.
 const puns = [
+  "Weathering the storm, one umbrella at a time.",
+  "The sun is my favorite influencer. It’s always bringing the heat!",
+  "Is it cold outside or is it just giving me the cold shoulder?",
+  "I love when it rains on the weekend – it's like the weather's giving me a free excuse to do nothing!",
+  "What’s a tornado’s favorite game? Twister!",
+  "I’d make a weather joke, but it would be a total breeze.",
   "If it's raining cats and dogs make sure to watch where you walk! you might step in poodle. !",
   "I hate when it gets so hot I start losing my glitter 😥",
   "Summer Humidity has my hair giving me more drama than a RuPaul Untucked episode.",
   "The wind is blowing harder than my last Grindr date.",
+  "Why don't clouds ever break up? Because they keep everything under cover!",
+  "Snow way I'm leaving the house in this blizzard!",
+  "I tried to catch some fog, but I mist.",
+  "I'm on cloud nine... because it’s about to rain!",
   "I hate when it is so cold even my GayDar freezes!",
   "This rain is so relentless, I feel like I am trapped in a Britney Spears comeback ballad.",
   "New England weather is like a drag queen's performance: unpredictable, fierce, and leaving me breathless and slightly poorer than when it started. (Always tip your drag queens!).",
