@@ -302,7 +302,7 @@ font-size: 28px    }
     body {
         font-size: 14px;
         width: 100%;
-        max-width: fit-content;
+        max-width: 600px;
         padding: 10px;
     }
     
@@ -343,7 +343,7 @@ font-size: 28px    }
         color: rgb(47, 0, 255);
         text-align: center;
         width:275px;
-        margin-right: 43px;
+        margin-right:163px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 25px;
         background-color: darkgray;
@@ -371,7 +371,7 @@ font-size: 28px    }
         background-color: rgb(224, 224, 224);
         border-radius: 20px;
         width: 300px;
-        margin-left: 130px;
+        margin-left: 70px;
     
     }
     #newOrange {
